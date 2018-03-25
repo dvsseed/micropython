@@ -1,0 +1,2 @@
+build-pca10040/drivers/bluetooth/ble_drv.o: drivers/bluetooth/ble_drv.c
+drivers/bluetooth/ble_drv.c :

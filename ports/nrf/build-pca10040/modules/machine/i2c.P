@@ -1,0 +1,120 @@
+build-pca10040/modules/machine/i2c.o: modules/machine/i2c.c \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/stdio.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/_ansi.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/newlib.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/_newlib_version.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/config.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/features.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/cdefs.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/machine/_default_types.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/lib/gcc/arm-none-eabi/7.2.1/include/stddef.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/reent.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/_ansi.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_types.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/machine/_types.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/lock.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/types.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_stdint.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/machine/endian.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/machine/_endian.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/select.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_sigset.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_timeval.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/timespec.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_timespec.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/sched.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/machine/types.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/stdio.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/string.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/xlocale.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/strings.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/string.h \
+ ../../py/nlr.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/lib/gcc/arm-none-eabi/7.2.1/include-fixed/limits.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/lib/gcc/arm-none-eabi/7.2.1/include-fixed/syslimits.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/limits.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/assert.h \
+ ../../py/mpconfig.h mpconfigport.h boards/pca10040/mpconfigboard.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/alloca.h \
+ ../../py/runtime.h ../../py/mpstate.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/lib/gcc/arm-none-eabi/7.2.1/include/stdint.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/stdint.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_intsup.h \
+ ../../py/mpthread.h ../../py/misc.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/lib/gcc/arm-none-eabi/7.2.1/include/stdbool.h \
+ ../../py/obj.h ../../py/qstr.h \
+ build-pca10040/genhdr/qstrdefs.generated.h ../../py/mpprint.h \
+ ../../py/runtime0.h ../../py/objlist.h ../../py/objexcept.h \
+ ../../py/objtuple.h ../../py/pystack.h ../../py/mphal.h mphalport.h \
+ hal/nrf52_hal.h device/nrf.h device/nrf52/nrf52.h \
+ ../../lib/cmsis/inc/core_cm4.h ../../lib/cmsis/inc/core_cmInstr.h \
+ ../../lib/cmsis/inc/cmsis_gcc.h ../../lib/cmsis/inc/core_cmFunc.h \
+ ../../lib/cmsis/inc/core_cmSimd.h device/nrf52/system_nrf52.h \
+ device/nrf52/nrf52_bitfields.h device/nrf52/nrf51_to_nrf52.h \
+ device/nrf52/nrf52_name_change.h device/compiler_abstraction.h \
+ boards/pca10040/nrf52_hal_conf.h modules/machine/pin.h pin_defs_nrf5.h \
+ hal/hal_gpio.h ../../extmod/machine_i2c.h modules/machine/i2c.h \
+ hal/hal_twi.h
+modules/machine/i2c.c :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/stdio.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/_ansi.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/newlib.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/_newlib_version.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/config.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/machine/ieeefp.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/features.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/cdefs.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/machine/_default_types.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/lib/gcc/arm-none-eabi/7.2.1/include/stddef.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/reent.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/_ansi.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_types.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/machine/_types.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/lock.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/types.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_stdint.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/machine/endian.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/machine/_endian.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/select.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_sigset.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_timeval.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/timespec.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_timespec.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_pthreadtypes.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/sched.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/machine/types.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/stdio.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/string.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/xlocale.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/strings.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/string.h :
+ ../../py/nlr.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/lib/gcc/arm-none-eabi/7.2.1/include-fixed/limits.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/lib/gcc/arm-none-eabi/7.2.1/include-fixed/syslimits.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/limits.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/assert.h :
+ ../../py/mpconfig.h mpconfigport.h boards/pca10040/mpconfigboard.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/alloca.h :
+ ../../py/runtime.h ../../py/mpstate.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/lib/gcc/arm-none-eabi/7.2.1/include/stdint.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/stdint.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/arm-none-eabi/include/sys/_intsup.h :
+ ../../py/mpthread.h ../../py/misc.h :
+ /usr/local/Cellar/arm-none-eabi-gcc/7-2017-q4-major/gcc/lib/gcc/arm-none-eabi/7.2.1/include/stdbool.h :
+ ../../py/obj.h ../../py/qstr.h :
+ build-pca10040/genhdr/qstrdefs.generated.h ../../py/mpprint.h :
+ ../../py/runtime0.h ../../py/objlist.h ../../py/objexcept.h :
+ ../../py/objtuple.h ../../py/pystack.h ../../py/mphal.h mphalport.h :
+ hal/nrf52_hal.h device/nrf.h device/nrf52/nrf52.h :
+ ../../lib/cmsis/inc/core_cm4.h ../../lib/cmsis/inc/core_cmInstr.h :
+ ../../lib/cmsis/inc/cmsis_gcc.h ../../lib/cmsis/inc/core_cmFunc.h :
+ ../../lib/cmsis/inc/core_cmSimd.h device/nrf52/system_nrf52.h :
+ device/nrf52/nrf52_bitfields.h device/nrf52/nrf51_to_nrf52.h :
+ device/nrf52/nrf52_name_change.h device/compiler_abstraction.h :
+ boards/pca10040/nrf52_hal_conf.h modules/machine/pin.h pin_defs_nrf5.h :
+ hal/hal_gpio.h ../../extmod/machine_i2c.h modules/machine/i2c.h :
+ hal/hal_twi.h :

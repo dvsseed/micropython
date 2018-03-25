@@ -1,0 +1,7 @@
+Q(getCharacteristic)
+Q(addCharacteristic)
+Q(getCharacteristics)
+Q(uuid)
+Q(PRIMARY)
+Q(SECONDARY)
+Q(Service)

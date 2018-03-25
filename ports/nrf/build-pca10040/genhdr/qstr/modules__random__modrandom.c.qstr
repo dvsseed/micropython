@@ -1,0 +1,8 @@
+Q(__name__)
+Q(random)
+Q(getrandbits)
+Q(randrange)
+Q(randint)
+Q(choice)
+Q(random)
+Q(uniform)
